@@ -1,1 +1,3 @@
-#project02
+#Project02
+
+echo "Hello World"
