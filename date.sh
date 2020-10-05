@@ -1,1 +1,3 @@
-#Project02
+#!/bin/bash
+
+date
