@@ -15,3 +15,41 @@ $ ls -l foobar
 
 btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
 $
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ ls foobar barfoo
+ls: cannot access 'barfoo': No such file or directory
+foobar
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ ls foobar barfoo ? stdout.txt
+ls: cannot access 'barfoo': No such file or directory
+ls: cannot access '?': No such file or directory
+ls: cannot access 'stdout.txt': No such file or directory
+ foobar
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ ls foobar barfoo 2> stderr.txt
+foobar
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ ls foobar barfoo &> stdoutandstder.txt
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ cat stdout.txt
+cat: stdout.txt: No such file or directory
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ foobar
+bash: foobar: command not found
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ cat stderr.txt
+ls: cannot access 'barfoo': No such file or directory
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ cat stdoutandstderr.txt
+cat: stdoutandstderr.txt: No such file or directory
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$
