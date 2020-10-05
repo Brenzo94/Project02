@@ -1,0 +1,17 @@
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ ls -1 foobar
+ls: cannot access 'foobar': No such file or directory
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ touch foobar
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ ls -1 foobar
+foobar
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$ ls -l foobar
+-rw-r--r-- 1 btlbh 197609 0 Oct  4 16:31 foobar
+
+btlbh@DESKTOP-I5H5FMG MINGW64 ~/OneDrive/Desktop/Java II/git/Project02 (master)
+$
