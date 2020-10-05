@@ -1,3 +1,3 @@
-#Project02
+#!/usr/bin/bash
 
 echo "Hello World"
