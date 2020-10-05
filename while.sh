@@ -1,7 +1,7 @@
-#!/bin/bash
-  
-counter=0
+#!/usr/bin/bash
+
+counter=2
 while [ $counter -lt 3 ]; do
-    let counter+=1
-    echo $counter
+	let counter+=1
+	echo $counter
 done
