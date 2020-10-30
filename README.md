@@ -37,3 +37,10 @@ Helpful external sources:
 			
 Repository was emailed to partner 
 Kevin Joshua Ignacio Medina - medii.kevin@gmail.com on 10/4/2020 6:30 PM (HST)
+
+Code Review by Kevin Medina
+My fellow classmate Brandon, had great indentation for his files.
+Had no trouble accessing them and was able to read them perfectly. 
+He made some slight changes to a file which was nice. 
+I have no suggestions to give Brandon other than to congratulate 
+him on having perfectly indented codes. Great job! :)
